@@ -6,35 +6,85 @@ padding: 0;
 }
 
 
+/* -----FONT-FACE----- */
 
-/* ----- HTML ----- */
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/849347/000000000000000000010093/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/849347/000000000000000000010093/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/849347/000000000000000000010093/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"futura-pt-bold";
+src:url("https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt-bold";
+src:url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+.tk-futura-pt { font-family: "futura-pt",sans-serif; }
+.tk-futura-pt-bold { font-family: "futura-pt-bold",sans-serif; }
+
+/* ----- INDEX HTML ----- */
 
 html {
     width: 100%;
-    
 }
 
 
 
 /* ----- BODY ----- */
 body {
-    height: 2000px;
+    height: 100%;
     width: 100%;
+    font-family: futura-pt;
 }
 
 
 
 /* ----- Header ----- */
 
-header{
-    background-color: #000000;
-    opacity: 0.8;
+ header{
+    background-color: #000000CC;
     width: 100%;
     height: 52px;
     position: fixed;
     z-index: 10;
-}
-
+} 
 
 
 /* ----- Menu ----- */
@@ -53,10 +103,11 @@ header{
     display: block;
     color: #999997;
     text-align: center;
-    padding: 14px 19px;
+    padding: 11px 19px;
     text-decoration: none;
     border-top: 3px solid #ffffff00;
-    border-bottom: 3px solid #ffffff00
+    border-bottom: 3px solid #ffffff00;
+    font-size: 18px;
 }
 
 .menu li a:hover {
@@ -105,6 +156,7 @@ main {
 .container {
     position: relative;
     height: 800px;
+    
 }
 
 .parallax { 
@@ -134,4 +186,293 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+footer {
+    height: 20px;
+    background-color: #000000;
+    padding: 30px 0px 30px 30px;
+}
+
+footer div {
+    color: #999997;
+    width: 100%;
+    
+}
+
+
+
+/* ----------- ABOUT ---------- */
+
+.about body {
+    height: 100%;
+}
+
+.about-parallax {
+    height: 500px;
+    background: transparent;
+}
+
+.about-parallax h1 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+
+/* ----------- PORTFOLIO ---------- */
+
+.portfolio body {
+    height: 100%;
+}
+
+.portfolio-parallax {
+    height: 500px;
+    background: transparent;
+}
+
+.portfolio-parallax h1 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+/* Image Gallery */
+
+.image-gallery {
+    box-sizing: border-box;
+    padding: 20px 100px;
+    background-color: #000000;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img {
+    box-sizing: border-box;
+  vertical-align: middle;
+  width: 100%;
+    padding: 4px 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100px;
+        max-width: 100%;
+    }
+}
+
+
+
+.about-us {
+    height: 210px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+
+.about-us h2 {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about-us p {
+    padding: 10px 400px;
+    font-size: 20px
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    padding: 60px 450px;
+    grid-column-gap: 30px;
+}
+
+.portfolio-grid h1 {
+    grid-area: 1 / 1 / span 1 / span 3;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+/* Video */
+
+.video {
+    grid-area: 2 / 1 / 5 / span 1;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.video h3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #ff4141;
+    font-size: 19px;
+}
+
+.video p {
+    padding: 0px 50px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.video img {
+    padding: 30px 0px 40px 0px;
+    width: 80px;
+}
+/*.lighting-cover {
+    grid-area:  2 / 2 / 5 /span 1;
+    background-color: #00000080;
+    z-index: 2;
+}
+
+.lighting-cover:hover {
+    background-color: #00000000;
+}*/
+
+/* Lighting */
+
+.lighting {
+    grid-area: 2 / 2 / 5 / span 1;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.lighting h3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #ff4141;
+    font-size: 19px;
+}
+
+.lighting p {
+    padding: 0px 50px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.lighting img {
+    padding: 30px 0px 40px 0px;
+    width: 80px;
+}
+
+/* Visualisation */
+
+.visualisation {
+    grid-area: 2 / 3 / 5 / span 1;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.visualisation h3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #ff4141;
+    font-size: 19px;
+}
+
+.visualisation p {
+    padding: 0px 50px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.visualisation img {
+    padding: 30px 0px 40px 0px;
+    width: 80px;
+}
+
+/* Logo container */
+
+.tools-logo-container {
+    background-color: #000000;
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / repeat(12, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.tools-logo {
+    height: 80px;
+}
+
+#disguise {
+    height: 78px;
+}
+
+#hippo{
+    height: 90px;
+}
+
+#notch {
+    height: 30px
+}
+
+#etc {
+    height: 90px;
+}
+
+#ma {
+    height: 100px;
+}
+
+#wysiwyg {
+    height: 50px;
+}
+
+/* ----------- CONTACT ---------- */
+
+.contact body {
+    height: 2000px;
+}
+
+.contact-parallax {
+    height: 500px;
+    background: transparent;
+}
+
+.contact-parallax h1 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-shadow: 0px 0px 10px black;
 }
